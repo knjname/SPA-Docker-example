@@ -15,7 +15,7 @@ It executes the following steps.
     * Since `Dockerfile` has multi stage build, this example requires Docker >= `17.05`.
     * Multi stage build in this case is comprised of:
         1. Build SPA with webpack.
-        2. Bundle it in a `nginx-alpine`. This image is quite smaller than single stage build.
+        2. Bundle it in a `nginx:alpine`. This image is quite smaller than single stage build.
 2. Run the image built above. The bootstrap script is `serve.sh`.
     1. Generate `env.js` having environment variables defined in `docker-compose.yml`. This will be loaded in SPA.
     2. Generate `nginx.conf` nginx uses.
