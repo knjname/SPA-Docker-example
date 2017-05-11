@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^2.28.0",
+    "webpack": "^2.5.1"
+  }
+}
